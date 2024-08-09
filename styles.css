@@ -102,7 +102,7 @@ margin:-1.875rem auto 1.25rem;}
 nav{padding:3rem;
 background-color:#4e4e4e;
 margin:-0.3125rem auto 2.5625rem auto;
-    font-size:15px;
+    font-size:14px;
 
 width:100%;
 border-radius:0 0 0.4375rem 0.4375rem;
@@ -140,8 +140,8 @@ display:block;}
 .nav-but:hover{background-color:grey;}
 @media only screen and (max-width: 768px) {
   main {
-    width: 80%;
-    margin: 0 auto;
+    width: 87%;
+    margin: 60px auto 0 auto;
     padding: 30px;
   }
   .main-section {
