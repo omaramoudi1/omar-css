@@ -128,11 +128,11 @@ display:block;}
     width: 87%;
   margin-right:auto;
   margin-left:auto;
-  margin-top:90px;
-    padding: 30px;
+  
+    padding: 20px;
   }
   .main-section {
     width: 100%;
-    padding: 30px;
+    padding: 10px;
   }
 }
