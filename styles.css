@@ -6,8 +6,8 @@
 *{box-sizing:border-box;}
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 3px;
 }
 
 html{background-color:#1b1b1b;
