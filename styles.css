@@ -47,7 +47,7 @@ main{max-width:500px;
 width:90%;
 height:auto;
 display:block;
-margin:0 auto;
+margin:0.625rem auto;
 }
 p{line-height:1.6;}
 .gray{color:grey;}
@@ -120,4 +120,7 @@ color:white;}
 margin:0.375rem;
 display:block;}
 .nav-but:hover{background-color:grey;}
+
+
+}
 
