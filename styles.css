@@ -6,7 +6,7 @@
 *{box-sizing:border-box;}
 
 body {
-  margin: 15px;
+  margin: 0;
   padding: 13px;
 
 }
@@ -102,9 +102,10 @@ border:0.0625rem solid white;
 margin:-1.875rem auto 1.25rem;}
 .main-section{margin-bottom:3.475rem;}
 
-nav{padding:2rem;
+nav{padding:3rem;
 background-color:#4e4e4e;
 margin:-0.3125rem auto 2.5625rem auto;
+    font-size:15px;
 
 width:100%;
 border-radius:0 0 0.4375rem 0.4375rem;
@@ -142,9 +143,9 @@ display:block;}
 .nav-but:hover{background-color:grey;}
 @media only screen and (max-width: 768px) {
   main {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
   }
   .main-section {
     width: 100%;
