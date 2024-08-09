@@ -43,7 +43,7 @@ border-right:0.0625rem solid white;}
 padding:0.0625rem;}
 
 main{max-width:500px;
-width:100%;
+width:100vw;
 height:auto;
 display:block;
 margin:0.625rem auto;
