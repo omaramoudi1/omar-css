@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  padding: 13px;
+  padding: 0;
 
 }
 
@@ -63,7 +63,7 @@ margin-bottom:1.625rem ;
   margin-right:auto;
   margin-left:auto;
   margin-top:60px;
-
+max-width:80%;
 }
 p{line-height:1.6;}
 .gray{color:grey;}
