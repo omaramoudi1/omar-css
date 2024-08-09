@@ -1,0 +1,209 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport", iitial-scale="1.0">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+<img src="https://img.freepik.com/premium-photo/black-background-with-constellations-it_994023-201113.jpg">
+     <div class="navig">
+       <nav id="navbar">
+         <header>CSS GUIDE</header>
+  <a class="nav-link" href="#What_is_CSS?"><span class="nav-but">What is CSS?</span></a>
+  <a class="nav-link" href="#first_step"><span class="nav-but">first step</span></a> 
+  <a class="nav-link" href="#Color"><span class="nav-but">Color</span></a> 
+  <a class="nav-link" href="#Selecting_multiple_elements"><span class="nav-but">Selecting multiple elements</span></a> 
+  <a class="nav-link" href="#Different_types_of_selectors"><span class="nav-but">Different types of selectors</span></a> 
+  <a class="nav-link" href="#Fonts_and_text"><span class="nav-but">Fonts and text</span></a> 
+         </nav>
+     </div>
+      <main id=
+      "main-doc">
+        <section class="main-section" id="What_is_CSS?">
+<header>
+  <h2>What is CSS?</h2>
+  </header>
+
+<p>CSS (Cascading Style Sheets) is the code that styles web content. CSS basics walks through what you need to get started. We'll answer questions like: How do I make text red? How do I make content display at a certain location in the (webpage) layout? How do I decorate my webpage with background images and colors?</p>
+
+          </section>
+          <section class="main-section" id="first_step">
+<header>
+ 
+  <h1>first step</h1>
+ 
+  </header>
+
+<p>To make the code work, we still need to apply this CSS (above) to your HTML document. Otherwise, the styling won't change the appearance of the HTML. </p>
+
+<p>1. Open your index.html file. Paste the following line in the head (between the head tags):</p>
+
+<section class="tutorial">
+  <section class="up">HTML</section>
+  <section class="down">
+    <code><span class="green"> <link </span><span class="red">href</span><span class="green">="styles/style.css"</span><span class="red"> rel</span><span class="green">="stylesheet" /></span></code>
+    </section>
+</section>
+<p>2. Save index.html and load it in your browser.
+
+
+          </section>
+          <section class="main-section" id="Color">
+          
+<header>
+  <h1>Color</h1>
+  </header>
+  <p>Like HTML, CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. CSS is what you use to selectively style HTML elements. For example, this CSS selects paragraph text, setting the color to red:</p>
+  <section class="tutorial">
+    <section class="up">CSS</section>
+      <section class="down">
+      <code><span class="purple">  p</span> {
+  <span class="red">color</span>: red;
+}</code>
+      </section>
+</section>
+</section>
+          <section class="main-section" id="Selecting_multiple_elements">
+          <header>
+  <h1>Selecting multiple elements</h1>
+  </header>
+        <p>You can also select multiple elements and apply a single ruleset to all of them. Separate multiple selectors by commas. For example:</p>
+<section class="tutorial">
+  <section class="up">CSS</section>
+  <section class="down"><code><span class="purple">p, li, h1</span> {<span class="red">color</span>: red;}</code></section>
+  </section>
+
+
+        </section>
+          <section class="main-section" id="Different_types_of_selectors">
+        <header>
+  <h1>Different types of selectors</h1>
+  </header>
+        <section>
+          <table>
+            <thead>
+             <tr class="">
+              <th>Selector name</th>
+            <th>What does it select</th>
+            <th>Example</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr class="grey">
+          <th>ID selector</th>
+          <td class="td2">The element on the page with the specified ID. On a given HTML page, each id value should be unique.</td>
+          <td>
+            
+            <code>
+              #my-id
+selects &lt;p id="my-id"&gt; or &lt;a id="my-id"&gt;
+
+</code>
+
+</td>
+              </tr>
+              <tr>
+          <th>Class selector</th>
+          <td class="td2">The element(s) on the page with the specified class. Multiple instances of the same class can appear on a page.</td>
+          <td><code>
+            .my-class
+selects &lt;p class="my-class"&gt; and &lt;a class="my-class"&gt;
+            </code></td>
+          
+        </tr>
+              <tr class="grey">
+          <th>Attribute selector</th>
+          <td class="td2">The element(s) on the page with the specified attribute.</td>
+          <td>img[src]
+selects &lt;img src="myimage.png"> but not &lt;img></td>
+          </tr>
+              <tr>
+          <th>Pseudo-class selector</th>
+          <td class="td2">The element(s) on the page with the specified attribute.</td>
+          <td>a:hover
+selects &lt;a&gt;, but only when the mouse pointer is hovering over the link.</td>
+          </tr>
+            </tbody>
+          </table>
+        </section>
+          </section>
+ <section class="main-section" id="Fonts_and_text">
+        <header>
+  <h1>Fonts and text</h1>
+  </header>
+        <section>
+       <p>Now that we've explored some CSS fundamentals, let's improve the appearance of the example by adding more rules and information to the <span class="tutorial-p">style.css</span> file.</p>  
+       <ul>
+         <li><p>
+First, find the output from Google Fonts. Add the &lt;link> element somewhere inside your index.html's head (anywhere between the &lt;head> and &LT;/head> tags). It looks something like this:</p>
+<div class="tutorial"><div class="up">HTML</div>
+<div class="down">
+  <code><span class="green">&lt;link</span><br>
+  <span class="red">href</span><span class="green">="https://fonts.googleapis.com/css?family=Open+Sans"<br>
+ <span class="red"> rel</span><span class="green">="stylesheet" /</span>></code></div>
+  </div>
+
+<p>This code links your page to a style sheet that loads the Open Sans font family with your webpage.</p>
+
+         </li>
+         <li>
+<p>Next, delete the existing rule you have in your <span class="tutorial-p">style.css</span> file. It was a good test, but let's not continue with lots of red text.</p>
+
+         </li>
+         <li>
+           <p>Add the following lines (shown below). The property <span class="tutorial-p">font-family</span> refers to the font(s) you want to use for text. This rule defines a global base font and font size for the whole page. Since <span class="tutorial-p">&lt;html></span> is the parent element of the whole page, all elements inside it inherit the same <span class="tutorial-p">font-size</span> and <span class="tutorial-p">font-family</span>.</p>
+           <div class="tutorial">
+             <div class="up">CSS</div>
+             <div class="down"><span class="purple">html</span> {<br>
+ <span class="red"> font-size</span>: 10px;} <span class="gray">/* px means "pixels": the base font size is now 10 pixels high */</span><br><br>
+ <span class="red"> font-family</span>: "<span class="green">Open Sans</span>", sans-serif;}<span class="gray"> /* this should be the rest of the output you got from Google Fonts */</span><br>
+</div></div>
+
+<div class="note">
+  <p><span class="info">i </p>
+  <P>
+    <b>NOTE</b>: Anything in CSS between <span class="tutorial comment"> /* </span>   and <span class="tutorial comment"> */ </span> is a CSS comment. The browser ignores comments as it renders the code. CSS comments are a way for you to write helpful notes about your code or logic.
+    </p>
+    </div>
+         </li>
+         
+         <li>
+Now let's set font sizes for elements that will have text inside the HTML body (<span class="tutorial comment">&lt;h1></span>, <span class="tutorial comment">&lt;li></span>, and <span class="tutorial comment">&lt;p></span>). We'll also center the heading. Finally, let's expand the second ruleset (below) with settings for line height and letter spacing to make body content more readable.
+<div class="tutorial">
+<div class="up">CSS</div>
+<div class="down">
+ <span class="purple"> h1</span> { <br>
+ <span class="red"> font-size</span>: 60px;<br>
+ <span class="red"> text-align</span>: center;<br>
+}
+<br><br>
+<span class="purple">p,
+li </span>{<br>
+ <span class="red"> font-size</span>: 16px;<br>
+ <span class="red"> line-height</span>: 2;<br>
+ <span class="red"> letter-spacing</span>: 1px;<br>
+}
+<li>
+  <b>Pixels</b>: Adjust the <span class="tutorial comment">px</span> values as you like. You can also use <span class="tutorial comment">rem</span> instead of <span class="tutorial comment">px</span>.<br>1rem = 16px 
+  </li>
+</div>
+
+</div>
+         </li>
+         </ul>
+         
+          </section>
+          </section>
+<div class="divider"></div>
+</main>
+<footer><span>The information used in this page is from <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">mdn</a></span>
+The design is done purely by me.<br> My socials:
+<a href="https://www.linkedin.com/in/omar-amoudi-a5485428a/">Linkedin</a>
+<a href="https://github.com/omaramoudi1">github</a>
+</footer>
+</body>
+</html>
