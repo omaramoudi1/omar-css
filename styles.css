@@ -52,7 +52,10 @@ main{
 width:90%;
 height:100%;
 display:block;
-margin:0.625rem auto;
+margin-bottom:0.625rem;
+margin-top:1.3rem;
+  margin-right:auto;
+  margin-left:auto;
 }
 .main-section {
   width: 100%;
