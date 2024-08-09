@@ -8,6 +8,7 @@
 body {
   margin: 15px;
   padding: 13px;
+
 }
 
 html{background-color:#1b1b1b;
@@ -58,7 +59,11 @@ main{
 width:100vw;
 height:100%;
 display:block;
-margin:1.625rem auto;
+margin-bottom:1.625rem ;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:60px;
+
 }
 p{line-height:1.6;}
 .gray{color:grey;}
@@ -87,7 +92,9 @@ li{margin:1rem auto}
 footer{display:flex;
 flex-direction:column;
 gap:0.0625rem;
-margin-top:0.3125rem;}
+margin-top:0.3125rem;
+      justify-content:center;
+      }
 
 .divider{width:80%
 height:0.0625rem;
@@ -135,8 +142,8 @@ display:block;}
 .nav-but:hover{background-color:grey;}
 @media only screen and (max-width: 768px) {
   main {
-    width: 100%;
-    margin: 30px auto;
+    width: 90%;
+    margin: 0 auto;
     padding: 20px;
   }
   .main-section {
