@@ -14,8 +14,7 @@ background-image: url('https://img.freepik.com/premium-photo/black-background-wi
   height: 100vh;
 }
 
-html{background-color:#1b1b1b;
-color:white;
+html{color:white;
 scroll-behavior: smooth;}
 
 .main-section {
@@ -92,6 +91,7 @@ flex-direction:column;
 gap:0.0625rem;
 margin-top:0.3125rem;
       justify-content:center;
+       text-align:center
       }
 
 .divider{width:80%
@@ -145,7 +145,7 @@ display:block;}
   margin-bottom:1.625rem ;
   margin-right:auto;
   margin-left:auto;
-  margin-top:60px;
+  margin-top:90px;
     padding: 30px;
   }
   .main-section {
